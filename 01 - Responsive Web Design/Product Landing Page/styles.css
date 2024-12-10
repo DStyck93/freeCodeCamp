@@ -1,0 +1,30 @@
+/*  Standard Elements */
+
+html {
+    background-color: lightgrey;
+    padding-left: 10px;
+}
+
+/*  IDs */
+
+#header {
+    margin-top: 45px;
+}
+
+#nav-bar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+
+    html {
+        font-size: .8rem;
+    }
+}
